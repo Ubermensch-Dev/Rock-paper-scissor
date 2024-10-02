@@ -61,10 +61,10 @@ human.forEach((opt) => {
   });
 }); 
 document.getElementById("reset-button").addEventListener("click", () => {
-  score_h = 0;
- score_AI = 0 ;
-  H_score.innerText = score_h ;
-  AI_move.innerText =  score_AI;
-  H_move.innerText = "";
-  
+  playerScore = 0;
+  aiScore = 0;
+  playerScoreDisplay.innerText = playerScore;
+  aiScoreDisplay.innerText = aiScore;
+  playerDisplay.innerText = "";
+  aiDisplay.innerText = "";
 });
