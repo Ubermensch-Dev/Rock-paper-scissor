@@ -66,5 +66,5 @@ document.getElementById("reset-button").addEventListener("click", () => {
   playerScoreDisplay.innerText = score_h ;
   AI_move.innerText =  score_AI;
   H_move.innerText = "";
-  aiDisplay.innerText = "";
+  
 });
