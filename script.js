@@ -63,7 +63,7 @@ human.forEach((opt) => {
 document.getElementById("reset-button").addEventListener("click", () => {
   score_h = 0;
  score_AI = 0 ;
-  playerScoreDisplay.innerText = score_h ;
+  H_score.innerText = score_h ;
   AI_move.innerText =  score_AI;
   H_move.innerText = "";
   
